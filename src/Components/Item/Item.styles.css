@@ -19,8 +19,13 @@
   justify-content: space-around;
 }
 
+i {
+  transition: 400ms;
+}
+
 i:hover {
   cursor: pointer;
+  color: red;
 }
 
 .content p:nth-child(1) {

@@ -7,11 +7,12 @@ const Item = ({ data, handleDelete }) => {
     <div className="item">
       <div className="content">
         <p>
-          {`${
+          {/* {`${
             data.Title.length >= 20
               ? `${data.Title.substring(0, 20)}...`
               : data.Title
-          }`}
+          }`} */}
+          {data.Title}
         </p>
         <p>{data.Year}</p>
         <p>{data.imdbID}</p>
