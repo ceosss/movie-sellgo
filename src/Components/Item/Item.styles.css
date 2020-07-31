@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  border: 1px solid darkgray;
+
+  border-radius: 15px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .item {
+    width: 90%;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.content p:nth-child(1) {
+  width: 30%;
+}
